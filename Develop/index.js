@@ -58,7 +58,6 @@ function init() {
     inquirer
         .prompt(questions)
         .then((data) => {
-            console.log(data);
             const contents = generateMarkdown(data);
             writeToFile("README.md", contents);
         })
