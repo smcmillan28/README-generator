@@ -16,8 +16,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "None") {
-    const badge = renderLicenseBadge(license);
-    return `This project is licensed under the ${license} license. \n` + badge;
+    return `This project is licensed under the ${license} license.`
   } else {
     return "";
   }
@@ -26,6 +25,8 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  
+${renderLicenseBadge(data.license)}
 
 ## Description of Project
 
