@@ -28,7 +28,7 @@ node index.js
 
 ## Application Demo
 
-![readme generator](./Develop/assets/readme-gen.gif)
+![readme generator](./Develop/assets/readme-gen2.gif)
 
 ## Questions
 Check out my GitHub profile [here.](https://github.com/smcmillan28)
